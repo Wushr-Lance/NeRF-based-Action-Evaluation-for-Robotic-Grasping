@@ -1,0 +1,41 @@
+# # 1. 忽略所有文件和文件夹
+# *
+
+block-insertion-sixdof-test/
+block-insertion-sixdof-train/
+
+checkpoints/
+
+build/
+
+dist/
+logs/
+
+orthographic-ngp/
+
+ravens.egg-info/
+
+block-insertion-sixdof-mira-10-0-5000.pkl
+
+yenchenlin_mira.pdf
+
+# # 2. 但是，不要忽略以下这些文件和文件夹 (即追踪它们)
+# !LICENSE
+# !README.md
+# !index.html
+# !requirements.txt
+# !setup.py
+
+# # 如果要追踪整个文件夹及其内容：
+# !assets/
+# !ravens/
+# !videos/
+
+# # 如果只想追踪文件夹中的特定文件，而不是整个文件夹内容：
+# # 首先确保文件夹本身不被忽略 (这样 Git 才能进入该文件夹查看)
+# !specific_folder/
+# # 然后忽略该文件夹中的所有内容
+# specific_folder/*
+# # 最后，取消忽略该文件夹中你想要追踪的特定文件
+# !specific_folder/specific_file_to_keep.py
+# !specific_folder/another_specific.txt
