@@ -27,9 +27,9 @@ import pybullet as p
 class PlaceRedInGreenGripper(Task):
   """Gripper-based sorting task: place red blocks in green bowls."""
 
-  # 为了兼容NeRF数据生成，添加默认的roll和pitch值
-  rolls = [0]  # 基础版本只使用0度roll
-  pitchs = [0]  # 基础版本只使用0度pitch
+  # Default roll and pitch values for NeRF data generation compatibility
+  rolls = [0]  # Base version uses only 0 degree roll
+  pitchs = [0]  # Base version uses only 0 degree pitch
 
   @classmethod
   def get_rolls(cls):
