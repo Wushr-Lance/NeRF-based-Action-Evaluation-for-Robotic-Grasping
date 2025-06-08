@@ -74,7 +74,7 @@ Evaluate a NeRF-Porter using the model trained for 5000 iterations. Results are 
 
 
 ```shell
-python ravens/test.py --assets_root=./ravens/environments/assets/ --disp=True --task=block-insertion-sixdof --agent=mira --n_demos=10 --n_steps=5000
+python ravens/test.py --assets_root=./ravens/environments/assets/ --disp=True --task=$TASK --agent=mira --n_demos=10 --n_steps=5000
 ```
 
 ## Acknowledgement
