@@ -19,6 +19,15 @@ block-insertion-sixdof-mira-10-0-5000.pkl
 
 yenchenlin_mira.pdf
 
+index.html
+
+LICENSE
+
+videos/
+
+place-red-in-green-gripper-sixdof-train/
+
+place-red-in-green-gripper-train/
 # # 2. 但是，不要忽略以下这些文件和文件夹 (即追踪它们)
 # !LICENSE
 # !README.md
