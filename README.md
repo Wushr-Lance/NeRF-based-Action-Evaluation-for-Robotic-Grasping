@@ -1,6 +1,8 @@
 # NeRF-based Action Evaluation for Robotic Grasping
 
-We built an end-to-end imitation-learning algorithm that solves various 6-DoF tabletop tasks. 
+This is an end-to-end imitation-learning algorithm that builds an instant-NeRF to synthesize novel views for 6-DoF pick and place affordance prediction and solves various 6-DoF tabletop tasks.
+
+> Reproduced and modified [MIRA](https://arxiv.org/abs/2212.06088).
 
 ## Guides
 
